@@ -18,7 +18,8 @@ metadata {
     capability "Alarm"
     capability "Sensor"
     capability "Actuator"
-    
+    attribute "dscpartition", "String"
+	attribute "panelStatus", "String"
     command "partition"
     command "armStay"
     command "armAway"
